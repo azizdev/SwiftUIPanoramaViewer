@@ -72,7 +72,7 @@ import CoreMotion
     @objc public var panSpeed = CGPoint(x: 0.4, y: 0.4)
     
     /// The starting angle for the panorama view.
-    @objc public var startAngle: Float = 0
+    @objc public var startAngle: Float = 3.2// This will make street view image point to the front of the car
 
     /// The panorama angle of offset.
     @objc public var angleOffset: Float = 0 {
